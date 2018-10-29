@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title></title>
+	    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	
+	<script>
+		(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                }
+            };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+	</script>
+	<body>
+		<div class="box">
+			
+		<div class="container">
+			<div class="container_css3">
+				<p class="css3_img"><img src="image/10_02.png"/></p>
+			
+			</div>
+			<div class="container_top">
+				<div class="top_title">想祛痘先试用</div>
+				<div class="header_title">针对性触发肌肤痘痘问题</div>
+				<div class="top_content">
+					<p class="atvt">再见痘痘，不用再祛痘的道路上辗转</p>
+					<p>反侧，面对各种祛痘方法，祛痘产品</p>
+					<p>购买时的期待到最后的苦恼，好的产</p>
+					<p>品经得起先试用，专利配方祛痘，先</p>
+					<p>试用后选择。</p>
+				</div>
+			</div>
+			<div class="container_banner">				<div class="banner_logo">
+					<img src="image/10_03.png" />
+				</div>
+				<div class="banner_content">
+					<div class="banner_content_title">
+						<p> &nbsp&nbsp 想要修复肌肤痘痘问题吗？</p>
+					    <p>面对痘痘痘印机肤不再苦恼</p>
+					    <p>美琪在线1对1祛痘指导讲解！</p>
+					</div>
+					
+				</div>
+				<div class="footer_left">
+				<div class="footer_centent">
+					<div class="footer_left">
+					<p>关注老师微信号</p>
+					<p>并回复我要领取试用</p>
+					<p>获取一对一量肤祛痘方案</p>
+					</div>
+					<div class="footer_right">
+					<div class="footer_zhen">
+						<span class="action">pcc150</span><br>
+						<span  class="action1">长安复制微信号并添加</span>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

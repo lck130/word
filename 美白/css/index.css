@@ -1,0 +1,189 @@
+			*{
+			margin:0;
+			padding:0;
+		}
+		.box{
+			max-width:640px;
+			min-width:320px;
+			background:#829ec3;
+			margin:0 auto;
+			
+		}
+			.container{
+				width:90%;
+				height:auto;
+				margin:0 auto;
+				vertical-align:top;
+				padding-bottom:5%;
+				position:relative;
+			}
+			.container_css3{
+				width:96%;
+				height:0.6rem;
+				margin:0 auto;
+			    margin-bottom:8%;
+			}
+			.container_css3 .css3_img{
+				position:absolute;
+			    top:0%;
+			    left:16%;
+			}
+			.container_css3 img{
+				max-width:80%;
+				border-radius:35%;
+				
+			/*	overflow:hidden;*/
+				
+			}
+			.container_top{
+				padding-top:18%;
+				background:#ffffff;
+				border-top-left-radius:3%;
+				border-top-right-radius:3%;
+				text-align: center;
+			}
+			.container_top .top_title{
+				text-align: center;
+				font-size:0.5rem;
+				font-weight:bold;
+				background:#ffffff;
+			}
+			.container_top .header_title{
+				text-align: center;
+				line-height:0.5rem;
+				color:red;
+				background:#ffffff;
+				margin-top:3%;
+				font-size:0.4rem;
+			}
+			.container_top .top_content{
+				width:96%;
+				padding-top:3%;
+				padding-bottom:3%;
+				 margin:0 auto;
+				text-align: center;
+				background:#ffffff;
+				color:#bcbcbc;
+			}
+			.container_top .top_content .atvt{
+					border-top:0.01rem solid #dfdfdf;
+			}
+			.container_top .top_content p{
+				width:96%;
+				margin-left:15%;
+				margin:0 auto;
+			/*	border-top:0.01rem solid #dfdfdf;*/
+			    border-bottom:0.01rem solid #dfdfdf;
+			    line-height:0.6rem;
+			    text-align: left;
+			    font-size:0.32rem;
+			}
+			.container_banner{
+				width:100%;
+				background:#d9e5f1;
+				z-index:0;;
+				position:relative;
+				padding-bottom:5%;
+				border-bottom-left-radius:3%;
+				border-bottom-right-radius:3%;
+			}
+			.container_banner .banner_logo{
+				width:96%;
+			
+				
+			}
+		    .banner_logo img{
+		    	max-width:30%;
+		    	border-radius:50%;
+		    	margin-top:7%;
+		    	margin-left:5%;
+		    	z-index:10;
+		    }
+		    .container_banner .banner_content{
+		    	width:88%;
+		    	height:36%;
+		        margin-left:5%;
+		    	margin-top:-11%;
+		    	border-top-left-radius:10%;
+		    	border-bottom-left-radius:10%;
+		    	background:#85a3c9;
+		    	color:#ffffff;
+		    	position:absolute;
+		    	left:6%;
+		    	top:27%;
+		    	z-index:-1;
+		    	text-align: left;
+		    	/*line-height:1.1rem;*/
+		    	font-size:0.23rem;
+		    }
+		     .container_banner .banner_content .banner_content_title{
+		     	margin-top:5%;
+		     	margin-left:5%;
+		     }
+		    .container_banner .banner_content p{
+		    	margin-left:35%;
+		    	margin-top:1%;
+		    }
+		    .container .footer_centent{
+		  	    margin-left:5%;
+		    	margin-right:5%;
+		    	margin-top:5%;
+		    	padding-bottom:5%;
+		    	width:90%;
+		    	height:1rem;
+		    	line-height:2rem;
+		    	background:#ffffff;
+		    	text-align: center;
+		    	font-size:0.05rem;
+		    }
+		     .container .footer_centent .footer_left{
+		     	margin-top:5%;
+		     	margin-bottom:5%;
+		     	float:left;
+		     	width:50%;
+		     	height:30%;
+		     }
+		      .container .footer_centent .footer_left p{
+		      	line-height:0.3rem;
+		      	font-size:0.2rem;
+		      	color:red;
+		      }
+		     .container .footer_centent .footer_right{
+		     	text-align: center;
+		     	width:2%;
+		     	height:25%;
+		     	margin-top:5%;
+		     	margin-right:47%;
+		     	float:right;
+		     }
+		     .container .footer_centent .footer_right .footer_zhen{
+		     	width:40%;
+		     	height:20%;
+		     	background:red;
+		     	position:absolute;
+		     	text-align: center;
+		     	line-height:0.05rem;
+		     }
+		      .container .footer_centent .footer_right .footer_zhen:after{
+		      	content:'';
+		      	position:absolute;
+		      	top:30%;
+		      	left:-11%;
+		      	/*border-width:50%;*/
+		      	border:0.15rem solid red;
+		      	border-color:transparent red transparent transparent;
+		      }
+		       .container .footer_centent .footer_right .footer_zhen .action1{
+		       	  display:inline-block;
+		       	  font-size:0.15rem;
+		       	  color:#ffffff;
+		       	  margin:0;
+		       	  line-height:0.5rem;
+		       }
+		        .container .footer_centent .footer_right .footer_zhen .action{
+		        	 display:inline-block;
+		        	font-size:0.3rem;
+		        	font-weight:bold;
+		        	color:#829ec3;
+		        	margin-top:10%;
+		        }
